@@ -1,23 +1,20 @@
-body
-{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.header
-{
+.header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 500px;
+    width: 400px;
     justify-content: space-around;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
-.footer
-{
+.footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,8 +23,7 @@ body
     margin-top: 20px;
 }
 
-.board
-{
+.board{
     width: 500px;
     height: 500px;
     display: grid;
